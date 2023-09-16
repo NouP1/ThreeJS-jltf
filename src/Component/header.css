@@ -1,0 +1,142 @@
+.header {
+    padding:2%
+
+
+}
+
+.Nav {
+    font-weight: 100;
+    font-size: 2vh;
+    column-gap: 2vh;
+    align-items: center;
+    float: right;
+
+}
+.header_row {
+    display: block;
+    text-align: left;
+    column-gap: 10px;
+    align-items: center;
+    font-family: JejuGothic;
+    font-size: 3vh;
+    font-weight: 600;
+    animation: PO 1s;
+    
+   
+}
+
+
+.header_logo {
+   
+    column-gap: 13px;
+    align-items: center;
+    
+}
+
+   
+
+
+.burger {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 2vh;
+    height: 0.4vh;
+    transform: scale(1);
+    background-color: black;
+    position: relative;
+    z-index: 50;
+    column-gap: 30%;
+    cursor: pointer;
+    float: right;
+    margin-left: 1.6vh;
+    margin-top: 0.9vh;
+
+
+    
+
+
+}
+.burger span {
+    width: 2vh;
+    height: 0.4vh;
+    transform: scale(1);
+    background-color: black;
+}
+.burger::before, .burger::after {
+    content: '';
+    position: absolute;
+    height: 0.3vh;
+    
+    width: 3vh;
+    background-color: black;
+    transition: all 0.3s ease 0s;
+}
+.burger::before {top:160%}
+
+.burger:after {bottom:160%}
+.burger.active span {transform: scale(0)}
+.burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0,-50%);
+}
+.burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0,50%);
+}
+
+
+
+
+          
+        @keyframes burgerAnimation {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    .header_nav {
+        column-gap: 4vh;
+        margin: 10vh;
+        animation:OP 1s;
+        display: flex;
+        float: left;
+    }
+@keyframes OP {
+    from {transform: translate(-40vh);
+        opacity: 0;}
+    to {transform:translate(0fr);
+        opacity: 1;}
+}
+@keyframes PO {
+    from {transform: translate(50vh);
+        opacity: 0;}
+    to {transform:translate(0fr);
+        opacity: 1;}
+    }
+  .BTN {
+    display: inline-block;
+    flex:content;
+    margin-left: 25%;
+    padding: 1vh;
+    border-radius: 12px;
+    font-weight: 100;
+    background-color: aquamarine;
+    animation: UP 5s;
+    
+    
+
+   
+
+  }
+.BTN:hover{
+    color:black;
+    background-color: bisque;
+    
+
+}
+@keyframes UP {
+    from {transform: translateY(-10vh);
+        opacity: 0;}
+    to {transform:translate(0fr);
+        opacity: 1;}
+    }

@@ -1,0 +1,13 @@
+.App {
+    height: 50vh;
+    width: 100%;
+    
+}
+.Canvas {
+    cursor: pointer;
+    animation: Comp 6s;
+}
+@keyframes Comp {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

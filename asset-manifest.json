@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Clone/static/css/main.dc0365ca.css",
+    "main.js": "/Clone/static/js/main.c2577504.js",
+    "static/media/Lable.svg": "/Clone/static/media/Lable.e483a64b8915dc8efa7584c320f62b42.svg",
+    "index.html": "/Clone/index.html",
+    "main.dc0365ca.css.map": "/Clone/static/css/main.dc0365ca.css.map",
+    "main.c2577504.js.map": "/Clone/static/js/main.c2577504.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc0365ca.css",
+    "static/js/main.c2577504.js"
+  ]
+}

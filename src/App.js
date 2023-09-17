@@ -21,7 +21,7 @@ function App () {
   intensity={1}
   castShadow
   />
-  <Suspense fallback = {null}>
+  <Suspense >
   <Model/>
   </Suspense>
 

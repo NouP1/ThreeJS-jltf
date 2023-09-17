@@ -10,9 +10,10 @@ Title: IBM PCjr 4863 Computer-Freepoly.org
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
+
 export function Model(props) {
   const group =useRef()
-  const { nodes, materials } = useGLTF('/Computer/scene.gltf')
+  const { nodes, materials } = useGLTF('Computer/scene.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.001}>
@@ -32,4 +33,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/scene.gltf')
+useGLTF.preload('/Computer/scene.glb')

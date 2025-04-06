@@ -1,3 +1,9 @@
+## Размещение 3D моделей формата gltf на сайте
+-Использован фреймворк React, реализована возможность перемещать модель увеличивать и уменьшать, 
+получен опыт работы с <canvas>.
+
+
+
 ![image](https://github.com/user-attachments/assets/6414f79b-ec86-411c-a782-2d8f0c9c9c83)
 
 ![image](https://github.com/user-attachments/assets/9bcd8fa4-af94-4a2c-a81f-34c8de89c522)
